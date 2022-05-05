@@ -63,11 +63,12 @@ function strivify (texthere) {
         texthere[5]==='e'
     )
     {
-        console.log(texthere)
+        //console.log(texthere)
     }
     else {
         
-            console.log(("Strive"), texthere)
+        //console.log(("Strive"), texthere)
         
     }
 }
+strivify ("some text")
