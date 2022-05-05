@@ -6,6 +6,18 @@ function area (l1, l2) {
     //console.log(rectangle)
 }
 
-area(50 , 50);
+area("hello" , "there");
 
 //Exercise 2
+
+function crazySum (n1,n2) {
+    let sumOfParameters = n1 + n2 
+    if (n1 === n2) {
+        //console.log(sumOfParameters * 3)
+    }
+    else {
+        //console.log(sumOfParameters)
+    }
+}
+
+crazySum (50,50)
