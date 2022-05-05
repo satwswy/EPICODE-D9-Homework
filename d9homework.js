@@ -43,11 +43,31 @@ function boundary (n) {
     if ((n >= 20 && n<= 100) || n === 400)
     {
         boundaryResult = true;
-        console.log(boundaryResult)
+        //console.log(boundaryResult)
     }
     else {
         boundaryResult = false;
-        console.log(boundaryResult)
+        //console.log(boundaryResult)
     }
 }
 boundary (400)
+
+//Exercise 5
+
+function strivify (texthere) {
+    if (texthere[0]==='S' && 
+        texthere[1]==='t' && 
+        texthere[2]==='r' && 
+        texthere[3]==='i' &&
+        texthere[4]==='v' &&
+        texthere[5]==='e'
+    )
+    {
+        console.log(texthere)
+    }
+    else {
+        
+            console.log(("Strive"), texthere)
+        
+    }
+}
