@@ -21,3 +21,17 @@ function crazySum (n1,n2) {
 }
 
 crazySum (50,50)
+
+//Exercise 3
+let num2 = 19
+function crazyDiff (num1) {
+    let difference = Math.abs(num1 - num2);
+    if (num1 <= num2) {
+        //console.log(difference)
+    }
+    else {
+        //console.log(difference * 3)
+    }
+}
+
+crazyDiff (10)
