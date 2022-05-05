@@ -35,3 +35,19 @@ function crazyDiff (num1) {
 }
 
 crazyDiff (10)
+
+//Exercise 4
+
+function boundary (n) {
+    let boundaryResult 
+    if ((n >= 20 && n<= 100) || n === 400)
+    {
+        boundaryResult = true;
+        console.log(boundaryResult)
+    }
+    else {
+        boundaryResult = false;
+        console.log(boundaryResult)
+    }
+}
+boundary (400)
